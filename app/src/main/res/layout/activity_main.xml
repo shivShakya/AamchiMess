@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp">
+    <TextView
+        android:id="@+id/messName"
+        android:layout_width="307dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="4dp"
+        android:paddingLeft="40sp"
+        android:text="Mess Name"
+        android:layout_marginLeft = "50dp"
+        android:textColor="#0A0A0A"
+        android:textSize="25sp"
+     />
+
+    <TextView
+        android:id="@+id/messAdd"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="0dp"
+        android:background="#54A32C"
+        android:backgroundTint="#BEB6B6"
+        android:padding="10sp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="20sp"
+   />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="206dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="-35dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#313B70"
+            android:backgroundTint="#BEB6B6"
+            android:layout_marginLeft = "30dp"
+            android:padding="12sp"
+            android:text="Welcome to  Aamchi Mess ! We understand that university life can be busy and stressful, and finding time to plan and cook healthy meals can often feel like a challenge. That's why we've created an easy-to-use app that streamlines the meal planning,so you can focus on your studies and other important things in your life.Our app is designed specifically for university students who live in on-campus accommodations, making it easy for you to connect with other students, share recipes, and collaborate on meal planning. Our app also helps you keep track of daily transactions and offers the convenience of monthly payment options for your mess fees.We take all feedback from our users positively, as we strive to provide the best possible experience for you. Whether you have suggestions for new features, improvements, or feedback on your experience with the app, we want to hear from you. Our team is dedicated to constantly improving and updating the app to meet your needs.Our goal is to help you save time, reduce food waste, and make meal planning a stress-free experience.Thank you for choosing our mess management system app. We're here to support you every step of the way!"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+    </ScrollView>
+    <Button
+        android:id="@+id/member"
+        android:layout_width="150dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft= "100dp"
+        android:text="Member"
+        app:backgroundTint="#4457ED"
+        android:layout_marginBottom="8dp"
+        />
+    <Button
+        android:id="@+id/guest"
+        android:layout_width="151dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft= "100dp"
+        android:text="Guest"
+        app:backgroundTint="#4457ED" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:layout_marginTop="0dp">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="20dp"
+        android:contentDescription="TODO"
+        android:layout_marginBottom="20dp"
+        app:backgroundTint="#4457ED"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:contentDescription="TODO"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        app:backgroundTint="#3045F2"
+        app:srcCompat="@drawable/fb" />
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="100sp"
+    android:layout_marginLeft="40dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:layout_marginTop="20sp"
+        android:text="Guest Users Details"
+        android:textSize="25sp"
+   />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="Name"
+    />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btn_scn"
+        android:layout_width="210dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20sp"
+        android:text="Open Scanner"
+       />
+
+
+</LinearLayout>
